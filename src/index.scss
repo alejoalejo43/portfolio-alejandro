@@ -1,0 +1,14 @@
+/*abstracts*/
+@use './scss/abstracts/variables';
+@use './scss/abstracts/mixins';
+
+/*base*/
+
+@use './scss/base/base';
+
+/*pages*/
+@use './scss/pages/aboutme';
+@use './scss/pages/home';
+
+/*layout*/
+@use './scss/layout/header'

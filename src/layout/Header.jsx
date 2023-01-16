@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './styles/Header.css';
+
 
 const links = [
   {
@@ -33,11 +33,14 @@ const Header = () => {
   const location = useLocation();
   return (
     <header>
-      <div>
-        {/* <img src="../assets/firmaRS2.svg" alt="" /> */}
-        <Link to={'/'}>Logo</Link>
-      </div>
-      {/* <span>Location:{location.pathname}</span> */}
+
+      <figure className="logo">
+        <Link to={'/'}>
+          <img src="../assets/firmaRS2.svg" alt="logo" />
+        </Link>
+      </figure>
+
+  
       <nav>
         <ul className="header_ul">
           {links.map((link) => {
