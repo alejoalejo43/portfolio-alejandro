@@ -49,7 +49,17 @@ nav {
   border: 5px solid red;
   border-radius: 1.2rem;
 }
-.logo{
-width:200px;
-height:200px;
+.logo {
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  background-position: top;
+  background-size: cover;
 }
